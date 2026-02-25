@@ -1,0 +1,1339 @@
+{
+  "tables": {
+    "meta_adsets": {
+      "columns": [
+        {
+          "name": "company",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "brand",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "client_id",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "ad_account_id",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "adset_id",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "campaign_id",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "account_id",
+          "type": "bigint",
+          "nullable": true
+        },
+        {
+          "name": "start_time",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "end_time",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "created_time",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "updated_time",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "event_type",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "window_days",
+          "type": "int",
+          "nullable": true
+        },
+        {
+          "name": "billing_event",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "budget_remaining",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "configured_status",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "daily_budget",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "destination_type",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "effective_status",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "lifetime_budget",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "lifetime_imps",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "pacing_type",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "status",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "age_max",
+          "type": "int",
+          "nullable": true
+        },
+        {
+          "name": "age_min",
+          "type": "int",
+          "nullable": true
+        },
+        {
+          "name": "age_range",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "excluded_custom_audiences_id",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "excluded_custom_audiences_name",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "target_custom_audiences_id",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "target_custom_audiences_name",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "genders",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "countries",
+          "type": "longtext",
+          "nullable": true
+        },
+        {
+          "name": "location_types",
+          "type": "longtext",
+          "nullable": true
+        },
+        {
+          "name": "brand_safety_content_filter_levels",
+          "type": "longtext",
+          "nullable": true
+        },
+        {
+          "name": "lookalike",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "custom_audience",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "advantage_audience",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "tgt_optz_types_lookalike",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "tgt_optz_types_detailed_targeting",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "optimization_goal",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "optimization_sub_event",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "source_adset_id",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "flexible_spec_interest_id",
+          "type": "longtext",
+          "nullable": true
+        },
+        {
+          "name": "flexible_spec_interest_name",
+          "type": "longtext",
+          "nullable": true
+        },
+        {
+          "name": "publisher_platforms",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "instagram_positions",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "inserted_at",
+          "type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "updated_at",
+          "type": "datetime",
+          "nullable": true
+        }
+      ],
+      "row_count": 5602
+    },
+    "meta_ads": {
+      "columns": [
+        {
+          "name": "company",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "brand",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "client_id",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "ad_account_id",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "id",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "adset_id",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "campaign_id",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "status",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "created_time",
+          "type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "updated_time",
+          "type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "creative_id",
+          "type": "bigint",
+          "nullable": true
+        },
+        {
+          "name": "creative_json",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "insight_status",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "region_status",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "age_status",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "inserted_at",
+          "type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "updated_at",
+          "type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "account_id",
+          "type": "varchar",
+          "nullable": true
+        }
+      ],
+      "row_count": 13869
+    },
+    "meta_campaigns": {
+      "columns": [
+        {
+          "name": "company",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "brand",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "client_id",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "ad_account_id",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "account_id",
+          "type": "bigint",
+          "nullable": true
+        },
+        {
+          "name": "id",
+          "type": "bigint",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "objective",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "buying_type",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "bid_strategy",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "configured_status",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "effective_status",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "created_time",
+          "type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "updated_time",
+          "type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "start_time",
+          "type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "stop_time",
+          "type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "status",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "smart_promotion_type",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "source_campaign_id",
+          "type": "bigint",
+          "nullable": true
+        },
+        {
+          "name": "special_ad_categories",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "spend_cap",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "last_updated_by_app_id",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "run_status",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "rec_inserted_at",
+          "type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "rec_updated_at",
+          "type": "datetime",
+          "nullable": true
+        }
+      ],
+      "row_count": 2094
+    },
+    "meta_insight": {
+      "columns": [
+        {
+          "name": "company",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "brand",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "client_id",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "ad_account_id",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "adset_id",
+          "type": "bigint",
+          "nullable": false
+        },
+        {
+          "name": "ad_id",
+          "type": "bigint",
+          "nullable": false
+        },
+        {
+          "name": "campaign_id",
+          "type": "bigint",
+          "nullable": false
+        },
+        {
+          "name": "impressions",
+          "type": "int",
+          "nullable": true
+        },
+        {
+          "name": "clicks",
+          "type": "int",
+          "nullable": true
+        },
+        {
+          "name": "spend",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "ctr",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "cpc",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "cpp",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "cpm",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "frequency",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "reach",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "unique_clicks",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "unique_ctr",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "inline_link_clicks",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "cost_per_inline_link_click",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "date_start",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "date_stop",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "action_type",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "action_value",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "action_1d_view",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "action_7d_click",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "website_ctr_actiontype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "website_ctr_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_15_sec_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_15_sec_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_25_sec_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_25_sec_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_30_sec_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_30_sec_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_50_sec_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_50_sec_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_75_sec_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_75_sec_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_95_sec_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_95_sec_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_100_sec_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_100_sec_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_avg_time_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_avg_time_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "purchase_roas_action_type",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "purchase_roas_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "cost_per_action_type",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "cost_per_value",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "conversions_action_type",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "conversions_value",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "inserted_at",
+          "type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "updated_at",
+          "type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "since_date",
+          "type": "date",
+          "nullable": true
+        },
+        {
+          "name": "until_date",
+          "type": "date",
+          "nullable": true
+        },
+        {
+          "name": "account_id",
+          "type": "varchar",
+          "nullable": true
+        }
+      ],
+      "row_count": 177749
+    },
+    "meta_insight_age_gender": {
+      "columns": [
+        {
+          "name": "company",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "brand",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "client_id",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "ad_account_id",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "adset_id",
+          "type": "bigint",
+          "nullable": false
+        },
+        {
+          "name": "ad_id",
+          "type": "bigint",
+          "nullable": false
+        },
+        {
+          "name": "campaign_id",
+          "type": "bigint",
+          "nullable": false
+        },
+        {
+          "name": "impressions",
+          "type": "int",
+          "nullable": true
+        },
+        {
+          "name": "clicks",
+          "type": "int",
+          "nullable": true
+        },
+        {
+          "name": "spend",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "ctr",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "cpc",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "cpp",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "cpm",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "frequency",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "reach",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "unique_clicks",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "unique_ctr",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "inline_link_clicks",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "cost_per_inline_link_click",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "date_start",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "date_stop",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "purchase_roas_action_type",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "purchase_roas_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "cost_per_action_type",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "cost_per_value",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "conversions_action_type",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "conversions_value",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "action_type",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "action_value",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "action_1d_view",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "action_7d_click",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "website_ctr_actiontype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "website_ctr_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_15_sec_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_15_sec_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_25_sec_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_25_sec_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_30_sec_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_30_sec_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_50_sec_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_50_sec_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_75_sec_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_75_sec_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_95_sec_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_95_sec_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_100_sec_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_100_sec_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_avg_time_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_avg_time_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "age",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "gender",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "inserted_at",
+          "type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "updated_at",
+          "type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "since_date",
+          "type": "date",
+          "nullable": true
+        },
+        {
+          "name": "until_date",
+          "type": "date",
+          "nullable": true
+        },
+        {
+          "name": "account_id",
+          "type": "varchar",
+          "nullable": true
+        }
+      ],
+      "row_count": 1629801
+    },
+    "meta_insight_region": {
+      "columns": [
+        {
+          "name": "company",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "brand",
+          "type": "varchar",
+          "nullable": true
+        },
+        {
+          "name": "client_id",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "ad_account_id",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "adset_id",
+          "type": "bigint",
+          "nullable": false
+        },
+        {
+          "name": "ad_id",
+          "type": "bigint",
+          "nullable": false
+        },
+        {
+          "name": "campaign_id",
+          "type": "bigint",
+          "nullable": false
+        },
+        {
+          "name": "impressions",
+          "type": "int",
+          "nullable": true
+        },
+        {
+          "name": "clicks",
+          "type": "int",
+          "nullable": true
+        },
+        {
+          "name": "spend",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "ctr",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "cpc",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "cpp",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "cpm",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "frequency",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "reach",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "unique_clicks",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "unique_ctr",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "inline_link_clicks",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "cost_per_inline_link_click",
+          "type": "float",
+          "nullable": true
+        },
+        {
+          "name": "date_start",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "date_stop",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "purchase_roas_action_type",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "purchase_roas_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "cost_per_action_type",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "cost_per_value",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "conversions_action_type",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "conversions_value",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "action_type",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "action_value",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "action_1d_view",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "action_7d_click",
+          "type": "json",
+          "nullable": true
+        },
+        {
+          "name": "website_ctr_actiontype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "website_ctr_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_15_sec_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_15_sec_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_25_sec_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_25_sec_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_30_sec_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_30_sec_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_50_sec_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_50_sec_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_75_sec_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_75_sec_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_95_sec_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_95_sec_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_100_sec_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_100_sec_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_avg_time_actionstype",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "video_avg_time_value",
+          "type": "text",
+          "nullable": true
+        },
+        {
+          "name": "region",
+          "type": "varchar",
+          "nullable": false
+        },
+        {
+          "name": "inserted_at",
+          "type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "updated_at",
+          "type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "since_date",
+          "type": "date",
+          "nullable": true
+        },
+        {
+          "name": "until_date",
+          "type": "date",
+          "nullable": true
+        },
+        {
+          "name": "account_id",
+          "type": "varchar",
+          "nullable": true
+        }
+      ],
+      "row_count": 4608544
+    }
+  }
+}
