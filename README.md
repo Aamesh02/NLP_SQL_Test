@@ -5,7 +5,7 @@ Natural language query API over a MySQL database of Meta (Instagram) Ads perform
 ## Setup
 
 1. Copy `.env.example` to `.env` and set:
-   - `DATABASE_URL` (or `DB_HOST`, `DB_USERNAME`, `DB_PASSWORD`, `DB_NAME`)
+   - `DATABASE_URL` 
    - `OPENAI_API_KEY`
 2. Install: `pip install -r requirements.txt`
 3. (Optional) Inspect DB schema and sizes: `python -m scripts.check_db`
