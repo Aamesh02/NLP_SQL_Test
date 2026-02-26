@@ -9,7 +9,7 @@ Natural language query API over a MySQL database of Meta (Instagram) Ads perform
    - `OPENAI_API_KEY`
 2. Install: `pip install -r requirements.txt`
 3. (Optional) Inspect DB schema and sizes: `python -m scripts.check_db`
-4. Run: `uvicorn app.main:app --host 0.0.0.0 --port 8000`
+4. Run: `uvicorn app.main:app --reload`
 
 ## Endpoints
 
